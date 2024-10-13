@@ -1,0 +1,8 @@
+---
+- name: Deploy file with "Hello"
+  ansible.builtin.copy:
+    dest: /tmp/test1
+    content:
+      Hello world!
+
+

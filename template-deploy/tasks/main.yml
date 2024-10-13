@@ -1,0 +1,5 @@
+---
+- name: Deploy the hostname template
+  ansible.builtin.template:
+    src: server-info.j2
+    dest: /tmp/test2

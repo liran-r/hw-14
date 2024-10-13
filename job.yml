@@ -1,0 +1,6 @@
+---
+- hosts: all
+  roles:
+    - common
+    - file-deploy
+    - template-deploy

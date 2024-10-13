@@ -1,0 +1,8 @@
+---
+- name: Zip and vim installation
+  ansible.builtin.apt:
+    name:
+      - zip
+      - vim
+    state: latest
+
